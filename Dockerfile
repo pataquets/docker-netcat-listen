@@ -1,3 +1,3 @@
-FROM pataquets/netcat:xenial
+FROM pataquets/netcat:focal
 
 ENTRYPOINT [ "netcat", "-l" ]
